@@ -14,3 +14,7 @@ end
 get '/visit' do
 	erb :visit
 end
+
+post '/visit' do
+	'dfsgsdfgsdfg'
+end
