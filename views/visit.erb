@@ -3,13 +3,12 @@
 <form action="/visit" method="POST">
 	<div>
 		<label>Выберите парикмахера</label>
-		<select>
-			<option>Walter White</option>
-			<option>Jessie Pinkman</option>
-			<option>Gus Fring</option>
+		<select name="barbers">
+			<option value="Walter White">Walter White</option>
+			<option value="Jessie Pinkman">Jessie Pinkman</option>
+			<option value="Gus Fring">Gus Fring</option>
 		</select>
 	</div>
-
 	<div class="mb-3">
     	<label>Ваше имя</label>
     	<input name="user_name" type="text" class="form-control" placeholder="Введите Ваше имя">
@@ -25,3 +24,5 @@
 	<br>
 	<button type="submit" class="btn btn-primary">Записаться</button>
 </form>
+
+
